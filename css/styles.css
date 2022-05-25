@@ -124,9 +124,14 @@
     color: var(--contacts-color);;
 }
 
-/*Чем мы занимаемся*/
-
-/*Наша команда*/
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
 .employee-name {
     font-weight: 500;
@@ -150,6 +155,7 @@
 
 .footer {
     background: var(--background-color);
+    
 }
 
 .logo-footer {
@@ -159,6 +165,10 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--text-accent);
+}
+
+.address {
+    font-style: normal;
 }
 
 .address-place {
@@ -176,11 +186,10 @@
 }
 
 
-/*PORTFOLIO*/
+                                /*PORTFOLIO*/
 
+    /*MAIN*/
 .button-section {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
